@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="../dist/vue.js"></script>
+</body>
+</html>
+<script>
+    const vm = new Vue({
+        el:'#app',
+        data(){
+            return {
+                msg:'myvue',
+                age:1,
+                arr:[1,2,3,4],
+                baby:{
+                    name:'jack'
+                }
+
+            }
+        },
+        methods: {
+            fn(){}
+        },
+
+    })
+    console.log(vm);
+    
+</script>
